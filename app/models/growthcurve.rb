@@ -1,0 +1,2 @@
+class Growthcurve < ApplicationRecord
+end

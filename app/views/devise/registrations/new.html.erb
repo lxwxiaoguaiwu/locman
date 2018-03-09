@@ -1,0 +1,33 @@
+<div id="content">
+  <div class="login-header">用户注册</div>
+  <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+    <div class="login-input-box">
+      <%= f.label "邮箱" %>
+      <span class="icon icon-user"></span>
+      <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+    </div>
+    <div class="login-input-box">
+      <%= f.label "密码" %>
+      <% if @minimum_password_length %>
+      <!-- <em>(<%= @minimum_password_length %> characters minimum)</em> -->
+      <% end %>
+      <span class="icon icon-password"></span>
+      <%= f.password_field :password, autocomplete: "off" %>
+    </div>
+    <div class="login-input-box">
+      <%= f.label "确认密码" %>
+      <span class="icon icon-password"></span>
+      <%= f.password_field :password_confirmation, autocomplete: "off" %>
+    </div>
+  <div class="remember-box">
+    <div class="actions">
+      <div class="login-button-box">
+        <%= f.submit "注册" %>
+      </div>
+    </div>
+  </div>
+  <% end %>
+  <div class="login-bottom up">
+    <%= render "devise/shared/links" %>
+  </div>
+</div>

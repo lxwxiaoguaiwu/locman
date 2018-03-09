@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  tagsc: MyString
+  alcohol: one
+  alcoholuser: one
+
+two:
+  tagsc: MyString
+  alcohol: two
+  alcoholuser: two

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  leixing: MyString
+  user: one
+  xiaoqu: one
+
+two:
+  title: MyString
+  leixing: MyString
+  user: two
+  xiaoqu: two

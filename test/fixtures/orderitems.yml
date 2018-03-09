@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  weborder: one
+  category: one
+  number: 1
+
+two:
+  weborder: two
+  category: two
+  number: 1

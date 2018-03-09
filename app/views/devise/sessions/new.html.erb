@@ -1,0 +1,33 @@
+<div id="content">
+  <div class="login-header">网站管理系统登录</div>
+  <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+    <div class="login-input-box">
+      <%= f.label "邮箱" %>
+      <span class="icon icon-user"></span>
+      <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+    </div>
+
+    <div class="login-input-box">
+      <%= f.label "密码" %>
+      <span class="icon icon-password"></span>
+      <%= f.password_field :password, autocomplete: "off" %>
+    </div>
+  <div class="remember-box">
+    <% if devise_mapping.rememberable? -%>
+      <div class="field">
+        <%= f.check_box :remember_me %>
+        <%= f.label "记住密码" %>
+      </div>
+    <% end -%>
+    <div class="actions">
+
+      <div class="login-button-box">
+        <%= f.submit "登录" %>
+      </div>
+    </div>
+  </div>
+  <% end %>
+  <div class="login-bottom">
+    <%= render "devise/shared/links" %>
+  </div>
+</div>

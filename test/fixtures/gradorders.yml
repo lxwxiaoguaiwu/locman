@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  status: MyString
+  totalprice: MyString
+  gradevin: one
+  alcoholuser: one
+  addressid: 1
+  category: one
+  number: 1
+
+two:
+  status: MyString
+  totalprice: MyString
+  gradevin: two
+  alcoholuser: two
+  addressid: 1
+  category: two
+  number: 1

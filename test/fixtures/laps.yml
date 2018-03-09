@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  lapmonth: 1
+  lapcode: MyString
+  lapcontent: MyString
+
+two:
+  lapmonth: 1
+  lapcode: MyString
+  lapcontent: MyString

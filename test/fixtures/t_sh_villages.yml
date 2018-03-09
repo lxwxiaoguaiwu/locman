@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  housetitle: MyString
+  address: MyString
+  quxian: MyString
+  shangquan: MyString
+  sqpinyin: MyString
+  money: 1
+  image: MyString
+  url: MyString
+  desc: MyText
+
+two:
+  housetitle: MyString
+  address: MyString
+  quxian: MyString
+  shangquan: MyString
+  sqpinyin: MyString
+  money: 1
+  image: MyString
+  url: MyString
+  desc: MyText

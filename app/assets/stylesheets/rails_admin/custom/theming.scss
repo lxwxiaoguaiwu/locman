@@ -1,0 +1,95 @@
+$primary: #273135;
+$secondary: #37BC9B;
+$black: #1a1a1a;
+$background: #E9F0F5;
+$blue: #428bca;
+
+.navbar{
+  border: 0;
+}
+
+.sub-menu > a > i{
+  padding-right: 10px;
+}
+#btn-menu-wrapper{
+  padding:0 3px 40px 3px;
+}
+
+body.rails_admin .sidebar-nav{
+  background-color: $primary;
+}
+
+body.rails_admin .sidebar-nav .dropdown-header {
+  color: #fff;
+  padding: 10px 15px;
+  margin-bottom:0;
+  font-size: 14px;
+  line-height: 1.42857143;
+  font-weight: normal;
+  text-transform: inherit;
+  border-bottom:0;
+  cursor: pointer;
+
+  &::after {
+    content: "\f138";
+    position: absolute;
+    right: 15px;
+    color: #fff;
+    font-family: 'FontAwesome', sans-serif;
+  }
+}
+
+body.rails_admin .sidebar-nav > .nav-stacked > li > a {
+  padding: 10px 15px;
+}
+
+.dropdown-header.open {
+  &::after {
+    content: "\f13a" !important;
+    position: absolute;
+    right: 15px;
+    color: #fff;
+    font-family: 'FontAwesome', sans-serif;
+  }
+}
+
+.dropdown-header:hover {
+  background: $secondary;
+}
+
+.dropdown-header.active {
+  background: $blue;
+}
+
+.sub-menu a {
+  color: #fff;
+  padding: 10px 15px 10px 30px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  font-weight: normal;
+  text-transform: inherit;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+}
+
+.sub-menu-container {
+  background: darken($primary, 5%);
+
+  li a {
+    color: #EEE;
+
+    &:hover {
+      color: $secondary !important;
+    }
+  }
+
+  li.active a {
+    background: darken($primary, 10%);
+    color: $blue !important;
+
+    &:hover {
+      color: $secondary !important;
+    }
+  }
+}

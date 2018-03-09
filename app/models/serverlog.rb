@@ -1,0 +1,2 @@
+class Serverlog < ApplicationRecord
+end

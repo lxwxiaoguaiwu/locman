@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  paystatus: MyString
+  price: MyString
+  alcoaddresses: one
+  alcoholusers: one
+  packstatus: MyString
+  packprice: MyString
+
+two:
+  paystatus: MyString
+  price: MyString
+  alcoaddresses: two
+  alcoholusers: two
+  packstatus: MyString
+  packprice: MyString

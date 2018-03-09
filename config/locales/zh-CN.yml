@@ -1,0 +1,485 @@
+zh-CN:
+  activerecord:
+    models:
+      user: "用户"
+      wegroup: "微信群"
+      post: "留言板"
+      serman: "服务家"
+      show: "早安邻居"
+      comment: "评论"
+      apply: "活动申请"
+      city: "城市"
+      event: "活动"
+      exchange: "交换记录"
+      pass: "传递图书"
+      quxian: "区县"
+      shangquan: "商圈"
+      swipper: "轮播图"
+      t_bj_village: "北京小区"
+      weixin: "微信群"
+      xiaoqu: "小区"
+      alcoaddress: "收货地址"
+      alcohol: "酒类概览信息"
+      alcoholuser: "用户"
+      category: "所有酒"
+      gradevin: "酒柜"
+      gradgood: "无人购酒水"
+      gradorder: "无人购订单"
+      imgcategory: "酒水详情"
+      orderitem: "易到购多酒水订单"
+      webgood: "易到购酒水"
+      weborder: "易到购订单"
+      checkup: "健康检查"
+      child: "儿童"
+      childimg: "儿童图片记录"
+      childlap: "儿童知识"
+      equipment: "设备"
+      growthcurve: "发育曲线"
+      lap: "知识库"
+      lapreport: "评估报告"
+      lapresult: "评估详情"
+      sercycle: "儿童评估周期"
+      teacher: "教师"
+
+    attributes:
+      checkup:
+        id: "序号"
+        created_at: "创建时间"
+        updated_at: "更新时间"
+        lefteye: "左眼"
+        righteye: "右眼"
+        lefthearing: "左耳"
+        righthearing: "右耳"
+        teeth: "牙齿"
+        heartrate: "心率"
+        tempertature: "温度"
+        diastolic: "舒张"
+        systolic: "收缩"
+        evaltime: "时间"
+      child:
+        id: "序号"
+        created_at: "创建时间"
+        updated_at: "更新时间"
+        name: "姓名"
+        gender: "性别"
+        birthday: "生日"
+        avatar: "照片"
+        contact: "紧急联系人"
+        conphone: "联系人电话"
+        starttime: "开始时间"
+        endtime: "结束时间"
+        desc: "详情"
+      childimg:
+        id: "序号"
+        created_at: "创建时间"
+        updated_at: "更新时间"
+        asset: "图片"
+      childlap:
+        id: "序号"
+        created_at: "创建时间"
+        updated_at: "更新时间"
+        desc: "详情"
+        teacherid: "教师"
+        lap_id: "知识库"
+        child_id: "儿童"
+      equipment:
+        id: "序号"
+        created_at: "创建时间"
+        updated_at: "更新时间"
+        name: "姓名"
+        child_id: "儿童"
+      growthcurve:
+        id: "序号"
+        created_at: "创建时间"
+        updated_at: "更新时间"
+        evaltime: "时间"
+        circum: "胸围"
+        height: "身高"
+        weight: "体重"
+        bmi: "体制指数"
+      lap:
+        id: "序号"
+        created_at: "创建时间"
+        updated_at: "更新时间"
+        leibie: "类别"
+        month: "月份"
+        content: "内容"
+        code: "编码"
+        encontent: "英文内容"
+        guidecard: "引导卡"
+      lapreport:
+        id: "序号"
+        created_at: "创建时间"
+        updated_at: "更新时间"
+        evaltime: "时间"
+        finescore: ""
+        groscore: ""
+        socialscore: ""
+        selfscore: ""
+        lanscore: ""
+        conscore: ""
+        fineage: ""
+        groage: ""
+        socialage: ""
+        selfage: ""
+        lanage: ""
+        conage: ""
+        comment: ""
+        teacher: ""
+        sercycle: ""
+      lapresult:
+        id: "序号"
+        created_at: "创建时间"
+        updated_at: "更新时间"
+        child: "儿童"
+        evaltime: "时间"
+        leibie: "类别"
+        lap: "知识库"
+        result: "状态"
+        comment: "内容"
+      sercycle:
+        id: "序号"
+        created_at: "创建时间"
+        updated_at: "更新时间"
+        child: "儿童"
+        desc: "详情"
+        dota: "检测点a"
+        dotb: "检测点b"
+        dotc: "检测点c"
+      teacher:
+        id: "序号"
+        created_at: "创建时间"
+        updated_at: "更新时间"
+        name: "姓名"
+        gender: "性别"
+        avater: "图片"
+      alcoaddress:
+        id: "序号"
+        created_at: "创建时间"
+        updated_at: "更新时间"
+        tel: "电话号码"
+        addressinfo: "详细地址"
+        toname: "收货人"
+      alcohol:
+        id: "序号"
+        created_at: "创建时间"
+        updated_at: "更新时间"
+        tel: "电话号码"
+        name: "酒名"
+        leibie: "类别"
+      alcoholuser:
+        id: "序号"
+        created_at: "创建时间"
+        updated_at: "更新时间"
+        wename: "微信名"
+        weasset: "微信头像"
+      category:
+        id: "序号"
+        created_at: "创建时间"
+        updated_at: "更新时间"
+        standard: "规格"
+        desc: "介绍"
+        price: "价格"
+        code: "编号"
+        leibie: "类别"
+      gradevin:
+        id: "序号"
+        created_at: "创建时间"
+        updated_at: "更新时间"
+        name: "酒柜名"
+        code: "编号"
+      gradgood:
+        id: "序号"
+        created_at: "创建时间"
+        updated_at: "更新时间"
+        status: "状态"
+        number: "数量"
+        preprice: "原价"
+        currprice: "现价"
+      gradorder:
+        id: "序号"
+        created_at: "创建时间"
+        updated_at: "更新时间"
+        status: "状态"
+        totalprice: "总价"
+        number: "数量"
+        serialnum: "订单"
+      imgcategory:
+        id: "序号"
+        created_at: "创建时间"
+        updated_at: "更新时间"
+        asset: "详情图"
+      orderitem:
+        id: "序号"
+        created_at: "创建时间"
+        updated_at: "更新时间"
+        number: "数量"
+      webgood:
+        id: "序号"
+        created_at: "创建时间"
+        updated_at: "更新时间"
+        status: "状态"
+        number: "数量"
+        preprice: "原价"
+        currprice: "现价"
+      weborder:
+        id: "序号"
+        created_at: "创建时间"
+        updated_at: "更新时间"
+        paystatus: "支付状态"
+        price: "价格"
+        packstatus: "包裹状态"
+        packprice: "运费"
+        serialnum: "订单号"
+      user:
+        name: "姓名"
+        phone: "手机号码"
+        wename: "微信名称"
+        gender: "性别"
+        weno: "微信号"
+        asset: "上传图片"
+        id: "序号"
+        created_at: "创建时间"
+        updated_at: "更新时间"
+      wegroup:
+        name: "名称"
+        user: "用户"
+        id: "序号"
+        asset: "上传图片"
+        created_at: "创建时间"
+        updated_at: "更新时间"
+      post:
+        title: "标题"
+        user: "用户"
+        asset: "上传图片"
+        id: "序号"
+        created_at: "创建时间"
+        updated_at: "更新时间"
+      show:
+        title: "标题"
+        user: "用户"
+        id: "序号"
+        asset: "上传图片"
+        created_at: "创建时间"
+        updated_at: "更新时间"
+      serman:
+        name: "姓名"
+        phone: "手机号码"
+        desc: "备注"
+        gender: "性别"
+        asset: "上传图片"
+        id: "序号"
+        created_at: "创建时间"
+        updated_at: "更新时间"
+    errors:
+      messages:
+        record_invalid: "验证失败: %{errors}"
+        restrict_dependent_destroy:
+          has_one: 由于 %{record} 需要此记录，所以无法移除记录
+          has_many: 由于 %{record} 需要此记录，所以无法移除记录
+  date:
+    abbr_day_names:
+    - 周日
+    - 周一
+    - 周二
+    - 周三
+    - 周四
+    - 周五
+    - 周六
+    abbr_month_names:
+    -
+    - 1月
+    - 2月
+    - 3月
+    - 4月
+    - 5月
+    - 6月
+    - 7月
+    - 8月
+    - 9月
+    - 10月
+    - 11月
+    - 12月
+    day_names:
+    - 星期日
+    - 星期一
+    - 星期二
+    - 星期三
+    - 星期四
+    - 星期五
+    - 星期六
+    formats:
+      default: "%Y-%m-%d"
+      long: "%Y年%m月%d日"
+      short: "%m月%d日"
+    month_names:
+    -
+    - 一月
+    - 二月
+    - 三月
+    - 四月
+    - 五月
+    - 六月
+    - 七月
+    - 八月
+    - 九月
+    - 十月
+    - 十一月
+    - 十二月
+    order:
+    - :year
+    - :month
+    - :day
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        one: 大约一小时
+        other: 大约 %{count} 小时
+      about_x_months:
+        one: 大约一个月
+        other: 大约 %{count} 个月
+      about_x_years:
+        one: 大约一年
+        other: 大约 %{count} 年
+      almost_x_years:
+        one: 接近一年
+        other: 接近 %{count} 年
+      half_a_minute: 半分钟
+      less_than_x_minutes:
+        one: 不到一分钟
+        other: 不到 %{count} 分钟
+      less_than_x_seconds:
+        one: 不到一秒
+        other: 不到 %{count} 秒
+      over_x_years:
+        one: 一年多
+        other: "%{count} 年多"
+      x_days:
+        one: 一天
+        other: "%{count} 天"
+      x_minutes:
+        one: 一分钟
+        other: "%{count} 分钟"
+      x_months:
+        one: 一个月
+        other: "%{count} 个月"
+      x_years:
+        one: 一年
+        other: "%{count} 年"
+      x_seconds:
+        one: 一秒
+        other: "%{count} 秒"
+    prompts:
+      day: 日
+      hour: 时
+      minute: 分
+      month: 月
+      second: 秒
+      year: 年
+  errors:
+    format: "%{attribute}%{message}"
+    messages:
+      in_between: "文件大小必须介于 %{min} 到 %{max} 之间"
+      spoofed_media_type: "扩展名与内容类型不符"
+      accepted: 必须是可被接受的
+      blank: 不能为空字符
+      present: 必须是空白
+      confirmation: 与确认值不匹配
+      empty: 不能留空
+      equal_to: 必须等于 %{count}
+      even: 必须为双数
+      exclusion: 是保留关键字
+      greater_than: 必须大于 %{count}
+      greater_than_or_equal_to: 必须大于或等于 %{count}
+      inclusion: 不包含于列表中
+      invalid: 是无效的
+      less_than: 必须小于 %{count}
+      less_than_or_equal_to: 必须小于或等于 %{count}
+      model_invalid: "验证失败: %{errors}"
+      not_a_number: 不是数字
+      not_an_integer: 必须是整数
+      odd: 必须为单数
+      required: 必须存在
+      taken: 已经被使用
+      too_long:
+        one: 过长（最长为一个字符）
+        other: 过长（最长为 %{count} 个字符）
+      too_short:
+        one: 过短（最短为一个字符）
+        other: 过短（最短为 %{count} 个字符）
+      wrong_length:
+        one: 长度非法（必须为一个字符）
+        other: 长度非法（必须为 %{count} 个字符）
+      other_than: 长度非法（不可为 %{count} 个字符
+    template:
+      body: 如下字段出现错误：
+      header:
+        one: 有 1 个错误发生导致「%{model}」无法被保存。
+        other: 有 %{count} 个错误发生导致「%{model}」无法被保存。
+  helpers:
+    select:
+      prompt: 请选择
+    submit:
+      create: 新增%{model}
+      submit: 储存%{model}
+      update: 更新%{model}
+  number:
+    currency:
+      format:
+        delimiter: ","
+        format: "%u %n"
+        precision: 2
+        separator: "."
+        significant: false
+        strip_insignificant_zeros: false
+        unit: CN¥
+    format:
+      delimiter: ","
+      precision: 3
+      separator: "."
+      significant: false
+      strip_insignificant_zeros: false
+    human:
+      decimal_units:
+        format: "%n %u"
+        units:
+          billion: 十亿
+          million: 百万
+          quadrillion: 千兆
+          thousand: 千
+          trillion: 兆
+          unit: ''
+      format:
+        delimiter: ''
+        precision: 1
+        significant: false
+        strip_insignificant_zeros: false
+      storage_units:
+        format: "%n %u"
+        units:
+          byte:
+            one: Byte
+            other: Bytes
+          gb: GB
+          kb: KB
+          mb: MB
+          tb: TB
+    percentage:
+      format:
+        delimiter: ''
+        format: "%n%"
+    precision:
+      format:
+        delimiter: ''
+  support:
+    array:
+      last_word_connector: ", 和 "
+      two_words_connector: " 和 "
+      words_connector: ", "
+  time:
+    am: 上午
+    formats:
+      default: "%Y年%m月%d日 %A %H:%M:%S %Z"
+      long: "%Y年%m月%d日 %H:%M"
+      short: "%m月%d日 %H:%M"
+    pm: 下午

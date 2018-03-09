@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  child: one
+  evaltime: 2018-01-30
+  leibie: MyString
+  lap: one
+  result: false
+  comment: MyText
+
+two:
+  child: two
+  evaltime: 2018-01-30
+  leibie: MyString
+  lap: two
+  result: false
+  comment: MyText

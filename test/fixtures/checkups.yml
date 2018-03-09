@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  lefteye: MyString
+  righteye: MyString
+  lefthearing: MyString
+  righthearing: MyString
+  teeth: MyString
+  heartrate: MyString
+  tempertature: MyString
+  diastolic: MyString
+  systolic: MyString
+  evaltime: 2018-01-30
+
+two:
+  lefteye: MyString
+  righteye: MyString
+  lefthearing: MyString
+  righthearing: MyString
+  teeth: MyString
+  heartrate: MyString
+  tempertature: MyString
+  diastolic: MyString
+  systolic: MyString
+  evaltime: 2018-01-30
